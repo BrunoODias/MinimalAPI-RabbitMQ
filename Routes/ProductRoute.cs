@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductApi.Data;
-using ProductApi.Models;
+using Product.Models;
 using System.Security.Principal;
 
 namespace ProductApi.Routes
