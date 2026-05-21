@@ -1,0 +1,12 @@
+C:\Users\Bruno\source\repos\Product.Models\bin\Debug\net7.0\Product.Models.deps.json
+C:\Users\Bruno\source\repos\Product.Models\bin\Debug\net7.0\Product.Models.dll
+C:\Users\Bruno\source\repos\Product.Models\bin\Debug\net7.0\Product.Models.pdb
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\Product.Models.csproj.AssemblyReference.cache
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\Product.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\Product.Models.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\Product.Models.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\Product.Models.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\Product.Models.dll
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\refint\Product.Models.dll
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\Product.Models.pdb
+C:\Users\Bruno\source\repos\Product.Models\obj\Debug\net7.0\ref\Product.Models.dll

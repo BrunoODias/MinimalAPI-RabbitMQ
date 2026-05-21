@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "/V7zr6YIeBVFAyzcPFGY08R634pyC8dzhnVrs5/gt4oMJfhapTPwnLBrMEToMnalphMFtMpU1ea83Q2VkiSfeA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Bruno\\source\\repos\\MinimalAPI-C-\\src\\Products.Worker\\Products.Worker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.3\\microsoft.extensions.configuration.binder.7.0.3.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\7.0.0\\microsoft.extensions.configuration.commandline.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\7.0.0\\microsoft.extensions.configuration.usersecrets.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.hosting\\7.0.1\\microsoft.extensions.hosting.7.0.1.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.logging.configuration\\7.0.0\\microsoft.extensions.logging.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.logging.console\\7.0.0\\microsoft.extensions.logging.console.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.logging.eventlog\\7.0.0\\microsoft.extensions.logging.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\7.0.0\\microsoft.extensions.logging.eventsource.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\7.0.0\\microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Users\\Bruno\\source\\repos\\MinimalAPI-C-\\src\\MinimalAPI-C-\\Product.Api.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "libraryId": "C:\\Users\\Bruno\\source\\repos\\MinimalAPI-C-\\src\\MinimalAPI-C-\\Product.Api.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
