@@ -1,14 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Product.Api;
-using Product.Models;
+﻿using Product.Models;
 using ProductApi.Data;
 using RabbitMQ.Client.Events;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace Products.Worker.Services.Product
 {
@@ -22,17 +16,35 @@ namespace Products.Worker.Services.Product
         protected ProductApiContext DbContext { get; }
         public abstract string ConsumerBind { get; }
 
-        internal async Task SaveLogAsync(BasicDeliverEventArgs eventArgs)
+        protected ProductLog GetProductLogFromMessage(BasicDeliverEventArgs eventArgs)
         {
             var body = eventArgs.Body.ToArray();
 
             var message = Encoding.UTF8.GetString(body);
 
-            var productLog = JsonSerializer.Deserialize<ProductLog>(message);
+            var result = JsonSerializer.Deserialize<ProductLog>(message);
+
+            if (result == null)
+                throw new Exception("Erro ao ler a mensagem do evento");
+
+            return result;
+        }
+
+        internal async Task SaveLogAsync(BasicDeliverEventArgs eventArgs)
+        {
+            var productLog = GetProductLogFromMessage(eventArgs);
+
+            Console.WriteLine("===================================================================");
+            Console.WriteLine($"Operação {productLog.Operation} no objeto({productLog.ProductId}).");
+            Console.WriteLine($"Objeto antes: {productLog.Productbefore}");
+            Console.WriteLine($"Objeto depois: {productLog.ProductAfter}");
+            Console.WriteLine("===================================================================");
+
 
             DbContext.ProductLogs.Add(productLog);
             await DbContext.SaveChangesAsync();
         }
+
 
         public abstract Task ExecuteAsync(object sender, BasicDeliverEventArgs eventArgs);
     }

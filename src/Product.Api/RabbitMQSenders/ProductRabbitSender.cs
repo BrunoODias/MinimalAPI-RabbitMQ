@@ -27,7 +27,7 @@ namespace Product.Api
                 CreateProductEventLog(
                     httpContext,
                     productBefore,
-                    RabbitMQConfigure.ProductEventsRoutingKey.Created,
+                    Operation,
                     productAfter
                 )
             );

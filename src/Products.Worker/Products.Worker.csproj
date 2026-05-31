@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MinimalAPI-C-\Product.Api.csproj" />
+    <ProjectReference Include="..\Product.Api\Product.Api.csproj" />
     <ProjectReference Include="..\Product.RabbitMQConfigure\Product.RabbitMQConfigure.csproj" />
   </ItemGroup>
 </Project>
