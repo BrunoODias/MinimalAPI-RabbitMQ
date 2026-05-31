@@ -24,7 +24,6 @@ namespace Products.Worker.Services.Product
         public override async Task ExecuteAsync(object sender, BasicDeliverEventArgs eventArgs)
         {
             //processamento
-
             await SaveLogAsync(eventArgs);
         }
     }
