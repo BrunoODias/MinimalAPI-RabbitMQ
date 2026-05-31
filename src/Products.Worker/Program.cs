@@ -14,6 +14,8 @@ IHost host = Host.CreateDefaultBuilder(args)
         services.AddSingleton<RabbitMQConfigure>();
 
         services.AddScoped<IService, ProductCreatedService>();
+        services.AddScoped<IService, ProductEditedService>();
+        services.AddScoped<IService, ProductDeletedService>();
 
         services.AddHostedService<Worker>();
     })
