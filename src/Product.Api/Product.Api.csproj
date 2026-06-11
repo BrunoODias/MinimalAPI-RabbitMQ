@@ -30,8 +30,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Product.Models\Product.Models.csproj" />
-		<ProjectReference Include="..\Product.RabbitMQConfigure\Product.RabbitMQConfigure.csproj" />
+	  <ProjectReference Include="..\Product.Models\Product.Models.csproj" />
+	  <ProjectReference Include="..\Product.RabbitMQConfigure\Product.RabbitMQConfigure.csproj" />
 	</ItemGroup>
 
 </Project>
