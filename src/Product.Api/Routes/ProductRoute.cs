@@ -24,21 +24,21 @@ namespace ProductApi.Routes
             var rabbit = app.Services.GetRequiredService<RabbitMQConfigure>();
 
             //Permissão
-            app.MapGet("products", async ([FromQuery] string? productName, [FromQuery] decimal? productPrice, [FromServices] ProductApiContext context) =>
+            productRoute.MapGet("/products", async ([FromQuery] string? productName, [FromQuery] decimal? productPrice, [FromServices] ProductApiContext context) =>
             {
                 var query = context.Products.AsQueryable();
 
                 if (!string.IsNullOrEmpty(productName))
                     query = query.Where(x => x.Name == productName);
 
-                if (productPrice.HasValue)
+                if (productPrice.HasValue && productPrice != 0)
                     query = query.Where(x => x.Price == productPrice.Value);
 
                 return Results.Ok(await query.ToListAsync());
             });
 
             //Permissão
-            productRoute.MapPost("", async ([FromBody] ProductRecord productReq, HttpContext httpContext, [FromServices] ProductRabbitSender rabbitSender, [FromServices] ProductApiContext context) =>
+            productRoute.MapPost("/product", async ([FromBody] ProductRecord productReq, HttpContext httpContext, [FromServices] ProductRabbitSender rabbitSender, [FromServices] ProductApiContext context) =>
             {
                 //Validação/Injação
                 ProductModel product = new ProductModel(productReq.name, productReq.price);
@@ -52,7 +52,7 @@ namespace ProductApi.Routes
             });
 
             //Permissão
-            productRoute.MapPut("{id:guid}", async (Guid Id, [FromBody] ProductRecord productReq, HttpContext httpContext, [FromServices] ProductRabbitSender rabbitSender, [FromServices] ProductApiContext context) =>
+            productRoute.MapPut("/product{id:guid}", async (Guid Id, [FromBody] ProductRecord productReq, HttpContext httpContext, [FromServices] ProductRabbitSender rabbitSender, [FromServices] ProductApiContext context) =>
             {
                 var productEntry = await context.Products.FirstOrDefaultAsync(x => x.Id == Id);
 
@@ -70,7 +70,7 @@ namespace ProductApi.Routes
             });
 
             //Permissão
-            productRoute.MapDelete("{id:guid}", async (Guid Id, HttpContext httpContext, [FromServices] ProductRabbitSender rabbitSender, [FromServices] ProductApiContext context) =>
+            productRoute.MapDelete("/product{id:guid}", async (Guid Id, HttpContext httpContext, [FromServices] ProductRabbitSender rabbitSender, [FromServices] ProductApiContext context) =>
             {
                 var productEntry = await context.Products.FirstOrDefaultAsync(x => x.Id == Id);
 
