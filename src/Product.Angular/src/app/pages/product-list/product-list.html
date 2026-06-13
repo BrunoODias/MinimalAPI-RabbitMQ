@@ -1,0 +1,18 @@
+<h1>Produtos</h1>
+
+<p>
+Quantidade:
+{{ products().length }}
+</p>
+
+<pre>
+{{ products | json }}
+</pre>
+
+<ul>
+    @for (product of products(); track product.id) {
+        <li>{{ product.name }} - {{ product.price }}</li>
+    } @empty {
+        <li>Nenhum produto cadastrado.</li>
+    }
+</ul>

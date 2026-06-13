@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Product.Api\Product.Api.csproj" />
+    <ProjectReference Include="..\Product.Models\Product.Models.csproj" />
     <ProjectReference Include="..\Product.RabbitMQConfigure\Product.RabbitMQConfigure.csproj" />
   </ItemGroup>
 </Project>
