@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.Worker", "src\Products.Worker\Products.Worker.csproj", "{E9E7E2CD-BB77-4F95-AF61-B52027F47287}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.RabbitMQConfigure", "src\Product.RabbitMQConfigure\Product.RabbitMQConfigure.csproj", "{5D91C310-4790-43CD-B89F-01AEC4A324A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Models", "src\Product.Models\Product.Models.csproj", "{821A6212-8C3F-4978-B8EC-56F13EF58317}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Api", "src\Product.Api\Product.Api.csproj", "{E6C04C5D-92C9-4B24-8C34-03F28F371B68}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Product.Angular", "src\Product.Angular\", "{29395EC8-19C0-4FB4-A3FC-CD99DC1899D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61865"
+		Debug.AspNetCompiler.PhysicalPath = "src\Product.Angular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61865\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61865"
+		Release.AspNetCompiler.PhysicalPath = "src\Product.Angular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61865\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61865"
+		SlnRelativePath = "src\Product.Angular\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9E7E2CD-BB77-4F95-AF61-B52027F47287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E7E2CD-BB77-4F95-AF61-B52027F47287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E7E2CD-BB77-4F95-AF61-B52027F47287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E7E2CD-BB77-4F95-AF61-B52027F47287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D91C310-4790-43CD-B89F-01AEC4A324A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D91C310-4790-43CD-B89F-01AEC4A324A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D91C310-4790-43CD-B89F-01AEC4A324A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D91C310-4790-43CD-B89F-01AEC4A324A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821A6212-8C3F-4978-B8EC-56F13EF58317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821A6212-8C3F-4978-B8EC-56F13EF58317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821A6212-8C3F-4978-B8EC-56F13EF58317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821A6212-8C3F-4978-B8EC-56F13EF58317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C04C5D-92C9-4B24-8C34-03F28F371B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C04C5D-92C9-4B24-8C34-03F28F371B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C04C5D-92C9-4B24-8C34-03F28F371B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C04C5D-92C9-4B24-8C34-03F28F371B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29395EC8-19C0-4FB4-A3FC-CD99DC1899D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29395EC8-19C0-4FB4-A3FC-CD99DC1899D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29395EC8-19C0-4FB4-A3FC-CD99DC1899D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{29395EC8-19C0-4FB4-A3FC-CD99DC1899D1}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9F560BF-F005-4A81-9AE8-6685974D0661}
+	EndGlobalSection
+EndGlobal
